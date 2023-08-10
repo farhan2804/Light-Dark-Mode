@@ -1,3 +1,0 @@
-**Light-Dark-Mode**
-
-The "Light Dark Mode" project showcases a dynamic user interface feature that enables seamless switching between light and dark color themes on a webpage. Using HTML, CSS, and JavaScript, the project offers users the ability to personalize their viewing experience based on their preferences, enhancing readability and visual comfort. The inclusion of a responsive design ensures the feature's accessibility across various devices, providing an engaging and user-centric browsing experience.
