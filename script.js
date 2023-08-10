@@ -14,9 +14,9 @@ function darkMode() {
     toggleIcon.children[0].textContent = 'Dark Mode';
     toggleIcon.children[1].classList.remove('fa-sun');
     toggleIcon.children[1].classList.add('fa-moon');
-    image1.src = 'img/4dark.svg';
-    image2.src = 'img/5dark.svg';
-    image3.src = 'img/6dark.svg';
+    image1.src = 'img/undraw_proud_coder_dark.svg';
+    image2.src = 'img/undraw_feeling_proud_dark.svg';
+    image3.src = '/img/undraw_conceptual_idea_dark.svg';
 }
 
 function lightMode() {
@@ -25,9 +25,9 @@ function lightMode() {
     toggleIcon.children[0].textContent = 'Light Mode';
     toggleIcon.children[1].classList.remove('fa-moon');
     toggleIcon.children[1].classList.add('fa-sun');
-    image1.src = 'img/1light.svg';
-    image2.src = 'img/2light.svg';
-    image3.src = 'img/3light.svg';
+    image1.src = 'img/undraw_proud_coder_light.svg';
+    image2.src = 'img/undraw_feeling_proud_light.svg';
+    image3.src = '/img/undraw_conceptual_idea_light.svg';
 
 }
 
