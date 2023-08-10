@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Edu+SA+Beginner:wght@600&family=Mukta&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Edu+SA+Beginner:wght@600&family=Mukta&display=swap");
 
 :root {
   --primary-color: rgb(237, 46, 46);
@@ -237,11 +237,11 @@ p {
   width: 26px;
 }
 
-input:checked+.slider {
+input:checked + .slider {
   background: var(--primary-color);
 }
 
-input:checked+.slider::before {
+input:checked + .slider::before {
   transform: translateX(26px);
 }
 
@@ -256,4 +256,98 @@ input:checked+.slider::before {
 .fas {
   font-size: 30px;
   margin-right: 5px;
+}
+
+@media (max-width: 1130px) {
+
+  
+  img {
+    height: 200px;
+    width: 200px;
+  }
+
+  .title-group h1 {
+    font-size: 70px;
+  }
+  #about h1 {
+    font-size: 70px;
+    margin-bottom: 20px;
+  }
+  #projects h1 {
+    font-size: 60px;
+  }
+  button {
+    min-width: 60px;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 10px;
+    border: 2px solid var(--primary-color);
+    font-size: 15px;
+    outline: none;
+    margin-bottom:20px;
+  }
+  .fab {
+    font-size: 60px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: var(--primary-color);
+  }
+   .social-icons{
+    align-items:center;
+   }
+   .fa-github{
+    margin-bottom:15px;
+   }
+}
+
+@media (max-width: 830px) {
+  img {
+    height: 230px;
+    width: 230px;
+  }
+  .about-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image-container {
+    margin-bottom: 20px;
+  }
+  #about h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .buttons{
+    margin-left:35px;
+  }
+
+  .theme-switch-wrapper{
+    margin-top:30px;
+
+  }
+}
+
+
+@media(max-width:460px){
+
+  .theme-switch-wrapper{
+    margin-top:55px;
+
+  }
+  .social-icons{
+    align-items:center;
+    margin-left:30px;
+   }
+   .fab {
+    font-size: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: var(--primary-color);
+  }
+  .about-container{
+    margin-left:18px;
+  }
 }
