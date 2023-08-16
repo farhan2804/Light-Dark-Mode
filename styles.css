@@ -339,7 +339,7 @@ input:checked + .slider::before {
   }
   .social-icons{
     align-items:center;
-    margin-left:30px;
+    margin-left:20px;
    }
    .fab {
     font-size: 40px;
@@ -350,4 +350,11 @@ input:checked + .slider::before {
   .about-container{
     margin-left:18px;
   }
+}
+
+@media(max-width:335px){
+  .social-icons{
+    align-items:center;
+    margin-left:35px;
+   }
 }
